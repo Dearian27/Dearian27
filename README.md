@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Den</h1>
 <h3 align="center">A frontend developer from Ukraine</h3>
-<img align="right" alt="coding" width="300" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
+<img align="right" alt="coding" width="450" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
 
 - 📫 How to reach me **dearian2706@gmail.com**
