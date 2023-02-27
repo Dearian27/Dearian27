@@ -2,7 +2,7 @@
 <h3 align="center">A frontend developer from Ukraine</h3>
 <img align="right" alt="coding" width="300" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dearian27" alt="dearian27" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"></a> </p>
 
 - 📫 How to reach me **dearian2706@gmail.com**
 
