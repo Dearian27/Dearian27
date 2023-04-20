@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Den</h1>
-<h3 align="center">A frontend developer from Ukraine</h3>
+<h3 align="center">A front-end developer from Ukraine</h3>
 <img align="right" alt="coding" width="450" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
 
