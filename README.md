@@ -20,7 +20,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dearian27&show_icons=true&locale=en" alt="dearian27" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dearian27&" alt="dearian27" /></p>
-
-![](https://img.shields.io/badge/days%20completed-17-red)
-
-<img src="https://img.shields.io/badge/days%20completed-17-red">
