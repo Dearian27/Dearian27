@@ -11,7 +11,6 @@
         outline: none;
         box-sizing: border-box;
       }
-
       .body {
         --color-main: #ff9b71;
         --color-primary: #ff4444;
@@ -19,14 +18,12 @@
         --color-background: #0d1117;
         --color-link: #fef29e;
         --color-link-active: #ff4444;
-
         height: 400px;
         width: 100%;
         text-transform: uppercase;
         display: flex;
         align-items: center;
         justify-content: center;
-
         background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
         animation: border 5s linear infinite;
         background-size: 200% 200%;
@@ -34,7 +31,6 @@
         border: 24px solid;
         border-color: var(--color-background);
       }
-
       .container {
         background: var(--color-background);
         height: calc(100% - 10px);
@@ -44,7 +40,6 @@
         justify-content: center;
         align-items: center;
       }
-
       h1 {
         font-size: 3.5rem;
         font-weight: 800;
@@ -101,7 +96,6 @@
       h1 a:focus span:nth-child(3) {
         transform: translateX(-1vw);
       }
-
       .items {
         margin-top: 24px;
         display: flex;
@@ -130,13 +124,11 @@
       ul li a {
         color: var(--color-link);
       }
-
       .hi {
         display: inline-block;
         transform-origin: 70% 70%;
         animation: hi 3s linear -2s infinite;
       }
-
       @keyframes border {
         0% { background-position: 0 0; }
         20% { background-position: 100% 0; }
@@ -144,7 +136,6 @@
         60% { background-position: 0 100%; }
         100% { background-position: 0 0; }
       }
-
       @keyframes hi {
         25% { transform: rotate(0deg); }
         30% { transform: rotate(15deg); }
@@ -157,17 +148,14 @@
         95% { transform: rotate(15deg); }
         100% { transform: rotate(0deg); }
       }
-
       @keyframes intro {
         0%, 75% { transform: translateX(-100vw); }
         100% { transform: translateX(0); }
       }
-
       @keyframes fade {
         0%, 75% { opacity: 0; }
         100% { opacity: 1; }
       }
-
       @media (prefers-color-scheme: light) {
         .body {
           --color-main: #9B5DE5;
@@ -178,21 +166,17 @@
           --color-link-active: #F15BB5;
         }
       }
-
       @media (prefers-reduced-motion) {
         .body {
           animation: none;
         }
-
         .hi {
           animation: none;
         }
-
         ul li {
           opacity: 1;
           animation: none;
         }
-
         h1 a span:nth-child(1),
         h1 a span:nth-child(2),
         h1 a span:nth-child(3) {
