@@ -12,9 +12,13 @@
         box-sizing: border-box;
       }
       .body {
-        --color-main: #ff9b71;
-        --color-primary: #ff4444;
-        --color-secondary: #e8e677;
+       --color-bg-main: #ff3bc1;
+        --color-bg-primary: #be25ff;
+        --color-bg-secondary: #25ff79;
+      
+        --color-main: #ff3bc1;
+        --color-primary: #be25ff;
+        --color-secondary: #25ff79;
         --color-background: #0d1117;
         --color-link: #fef29e;
         --color-link-active: #ff4444;
@@ -24,7 +28,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+        background-image: radial-gradient(var(--color-bg-main), var(--color-bg-primary), var(--color-bg-secondary));
         animation: border 5s linear infinite;
         background-size: 200% 200%;
         background-position: 0 0;
@@ -70,7 +74,19 @@
       h1 a span:nth-child(2) {
         color: var(--color-primary);
         margin-bottom: 6px;
-        animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.2) -0.9s 1;
+        animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.2) -0.9s 1,
+      gradient 6s infinite ease-out;
+      }
+      @keyframes gradient {
+      0% {
+        color: var(--color-main);
+      }
+      50% {
+        color: var(--color-primary);
+      }
+      100% {
+        color: var(--color-main);
+      }
       }
       h1 a span:nth-child(2) em {
         margin-top: -6px;
@@ -158,9 +174,13 @@
       }
       @media (prefers-color-scheme: light) {
         .body {
-          --color-main: #9B5DE5;
-          --color-primary: #F15BB5;
-          --color-secondary: #00BBF9;
+          --color-bg-main: #ff3bc1;
+          --color-bg-primary: #be25ff;
+          --color-bg-secondary: #25ff79;
+      
+          --color-main: #3ba7ff;
+          --color-primary: #ffec1f;
+          --color-secondary: #ffec1f;
           --color-background: #ffffff;
           --color-link: #00BBF9;
           --color-link-active: #F15BB5;
