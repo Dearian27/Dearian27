@@ -78,15 +78,21 @@
       gradient 6s infinite ease-out;
       }
       @keyframes gradient {
-      0% {
-        color: var(--color-main);
-      }
-      50% {
-        color: var(--color-primary);
-      }
-      100% {
-        color: var(--color-main);
-      }
+        0% {
+          color: var(--color-main);
+        }
+        42% {
+          color: var(--color-main);
+        }
+        50% {
+          color: var(--color-primary);
+        }
+        92% {
+          color: var(--color-primary);
+        }
+        100% {
+          color: var(--color-main);
+        }
       }
       h1 a span:nth-child(2) em {
         margin-top: -6px;
