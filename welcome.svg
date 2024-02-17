@@ -12,13 +12,13 @@
         box-sizing: border-box;
       }
       .body {
-       --color-bg-main: #ff3bc1;
+        --color-bg-main: #ff3bc1;
         --color-bg-primary: #be25ff;
         --color-bg-secondary: #25ff79;
       
-        --color-main: #ff3bc1;
-        --color-primary: #be25ff;
-        --color-secondary: #25ff79;
+        --color-main: #3ba7ff;
+        --color-primary: #ffec1f;
+        --color-secondary: #ffec1f;
         --color-background: #0d1117;
         --color-link: #fef29e;
         --color-link-active: #ff4444;
@@ -75,7 +75,7 @@
         color: var(--color-primary);
         margin-bottom: 6px;
         animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.2) -0.9s 1,
-      gradient 6s infinite ease-out;
+                   gradient 6s infinite ease-out;
       }
       @keyframes gradient {
         0% {
